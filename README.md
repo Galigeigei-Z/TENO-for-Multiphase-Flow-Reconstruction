@@ -1,4 +1,4 @@
-# TENO-for-Multiphase-Flow-Reconstruction Readme
+<img width="691" height="88" alt="image" src="https://github.com/user-attachments/assets/d2f28c89-fcf9-494b-804d-422a9c950f68" /># TENO-for-Multiphase-Flow-Reconstruction Readme
 
 This folder is the GitHub-facing demo bundle for the Time-Evolving Neural
 Operator (TENO) study on multiphase-flow reconstruction. It contains an
@@ -54,6 +54,15 @@ related public resources:
   - PNG preview extracted from the uploaded highlight PDF for GitHub rendering.
 - `Highlight image.pdf`
   - Original uploaded highlight figure.
+
+## Citation
+
+If this repository is useful for your work, please consider citing our pub:
+
+**Ziyun Zhang and Eldin Wee Chuan Lim**  
+*Time-Evolving Neural Operator Reconstruction and Prediction of Complex Flows from Sparse Measurements*  
+Physics of Fluids (2026) 
+https://doi.org/10.1063/5.0328615
 
 ## Contact
 
