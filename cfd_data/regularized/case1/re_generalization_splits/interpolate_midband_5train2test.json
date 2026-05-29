@@ -1,0 +1,52 @@
+{
+  "name": "interpolate_midband_5train2test",
+  "case": "Case1",
+  "time_window": {
+    "start_timestep": 0,
+    "end_timestep": 600,
+    "start_time_s": 0.0,
+    "end_time_s": 6.0
+  },
+  "train_re_values": [
+    400,
+    800,
+    1200,
+    1600,
+    2000
+  ],
+  "test_re_values": [
+    1000,
+    1400
+  ],
+  "train_series_dirs": [
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case1/data_new/Case1_Data_Re400",
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case1/data_new/Case1_Data_Re800",
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case1/data_new/Case1_Data_Re1200",
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case1/data_new/Case1_Data_Re1600",
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case1/data_new/Case1_Data_Re2000"
+  ],
+  "test_series_dirs": [
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case1/data_new/Case1_Data_Re1000",
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case1/data_new/Case1_Data_Re1400"
+  ],
+  "train_vtk_globs": [
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case1/data_new/Case1_Data_Re400/Re400_*.vtk",
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case1/data_new/Case1_Data_Re800/Re800_*.vtk",
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case1/data_new/Case1_Data_Re1200/Re1200_*.vtk",
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case1/data_new/Case1_Data_Re1600/Re1600_*.vtk",
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case1/data_new/Case1_Data_Re2000/Re2000_*.vtk"
+  ],
+  "test_vtk_globs": [
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case1/data_new/Case1_Data_Re1000/Re1000_*.vtk",
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case1/data_new/Case1_Data_Re1400/Re1400_*.vtk"
+  ],
+  "vtk_globs": [
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case1/data_new/Case1_Data_Re400/Re400_*.vtk",
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case1/data_new/Case1_Data_Re800/Re800_*.vtk",
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case1/data_new/Case1_Data_Re1000/Re1000_*.vtk",
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case1/data_new/Case1_Data_Re1200/Re1200_*.vtk",
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case1/data_new/Case1_Data_Re1400/Re1400_*.vtk",
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case1/data_new/Case1_Data_Re1600/Re1600_*.vtk",
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case1/data_new/Case1_Data_Re2000/Re2000_*.vtk"
+  ]
+}

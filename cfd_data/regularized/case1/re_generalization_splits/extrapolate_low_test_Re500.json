@@ -1,0 +1,29 @@
+{
+  "name": "extrapolate_low_test_Re500",
+  "case": "Case1",
+  "time_window": {
+    "start_timestep": 0,
+    "end_timestep": 600,
+    "start_time_s": 0.0,
+    "end_time_s": 6.0
+  },
+  "train_re_values": [
+    1000,
+    2000
+  ],
+  "test_re_values": [
+    500
+  ],
+  "train_series_dirs": [
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/90_archive/00_root_folder_archive/cases/Case1/data/re_generalization_splits/series_0_6s/Re1000",
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/90_archive/00_root_folder_archive/cases/Case1/data/re_generalization_splits/series_0_6s/Re2000"
+  ],
+  "test_series_dirs": [
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/90_archive/00_root_folder_archive/cases/Case1/data/re_generalization_splits/series_0_6s/Re500"
+  ],
+  "vtk_globs": [
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/90_archive/00_root_folder_archive/cases/Case1/data/re_generalization_splits/series_0_6s/Re1000/cavity_*.vtk",
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/90_archive/00_root_folder_archive/cases/Case1/data/re_generalization_splits/series_0_6s/Re2000/cavity_*.vtk",
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/90_archive/00_root_folder_archive/cases/Case1/data/re_generalization_splits/series_0_6s/Re500/cavity_*.vtk"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "output_dir": "/scratch/projects/CFP04/CFP04-CF-050/pof/90_archive/00_root_folder_archive/cases/Case1/data/re_generalization_splits",
+  "series_root": "/scratch/projects/CFP04/CFP04-CF-050/pof/90_archive/00_root_folder_archive/cases/Case1/data/re_generalization_splits/series_0_6s",
+  "re_values": [
+    500,
+    1000,
+    2000
+  ],
+  "max_timestep": 600,
+  "num_timesteps_per_series": 601,
+  "manifests": [
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/90_archive/00_root_folder_archive/cases/Case1/data/re_generalization_splits/all_seen_reference.json",
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/90_archive/00_root_folder_archive/cases/Case1/data/re_generalization_splits/interpolate_test_Re1000.json",
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/90_archive/00_root_folder_archive/cases/Case1/data/re_generalization_splits/extrapolate_low_test_Re500.json",
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/90_archive/00_root_folder_archive/cases/Case1/data/re_generalization_splits/extrapolate_high_test_Re2000.json"
+  ]
+}

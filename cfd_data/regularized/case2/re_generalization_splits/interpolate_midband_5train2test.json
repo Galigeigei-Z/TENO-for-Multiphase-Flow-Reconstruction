@@ -1,0 +1,52 @@
+{
+  "name": "interpolate_midband_5train2test",
+  "case": "Case2",
+  "time_window": {
+    "start_timestep": 0,
+    "end_timestep": 6000,
+    "start_time_s": 0.0,
+    "end_time_s": 6.0
+  },
+  "train_re_values": [
+    40,
+    80,
+    120,
+    160,
+    200
+  ],
+  "test_re_values": [
+    100,
+    140
+  ],
+  "train_series_dirs": [
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case2/data_new/Case2_Data_Re40",
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case2/data_new/Case2_Data_Re80",
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case2/data_new/Case2_Data_Re120",
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case2/data_new/Case2_Data_Re160",
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case2/data_new/Case2_Data_Re200"
+  ],
+  "test_series_dirs": [
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case2/data_new/Case2_Data_Re100",
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case2/data_new/Case2_Data_Re140"
+  ],
+  "train_vtk_globs": [
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case2/data_new/Case2_Data_Re40/karmen-Laminar_*.vtk",
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case2/data_new/Case2_Data_Re80/karmen-Laminar_*.vtk",
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case2/data_new/Case2_Data_Re120/karmen-Laminar_*.vtk",
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case2/data_new/Case2_Data_Re160/karmen-Laminar_*.vtk",
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case2/data_new/Case2_Data_Re200/karmen-Laminar_*.vtk"
+  ],
+  "test_vtk_globs": [
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case2/data_new/Case2_Data_Re100/karmen-Laminar_*.vtk",
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case2/data_new/Case2_Data_Re140/karmen-Laminar_*.vtk"
+  ],
+  "vtk_globs": [
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case2/data_new/Case2_Data_Re40/karmen-Laminar_*.vtk",
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case2/data_new/Case2_Data_Re80/karmen-Laminar_*.vtk",
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case2/data_new/Case2_Data_Re100/karmen-Laminar_*.vtk",
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case2/data_new/Case2_Data_Re120/karmen-Laminar_*.vtk",
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case2/data_new/Case2_Data_Re140/karmen-Laminar_*.vtk",
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case2/data_new/Case2_Data_Re160/karmen-Laminar_*.vtk",
+    "/scratch/projects/CFP04/CFP04-CF-050/pof/Case2/data_new/Case2_Data_Re200/karmen-Laminar_*.vtk"
+  ]
+}
