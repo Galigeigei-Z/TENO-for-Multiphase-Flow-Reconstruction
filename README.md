@@ -25,6 +25,7 @@ related public resources:
 - UPT tutorial repository: <https://github.com/BenediktAlkin/upt-tutorial>
 - Emmi AI Noether framework: <https://github.com/Emmi-AI/noether>
 
+3D Bubble column simulation modification based on: <https://github.com/GiordiR/BubbleColumn_OpenFOAM>
 ## Quick links
 
 - Executed notebook: [Case 1-3 demo notebook](./notebooks/case123_demo.ipynb)
