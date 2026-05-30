@@ -1,4 +1,4 @@
-<img width="691" height="88" alt="image" src="https://github.com/user-attachments/assets/d2f28c89-fcf9-494b-804d-422a9c950f68" /># TENO-for-Multiphase-Flow-Reconstruction Readme
+# TENO-for-Multiphase-Flow-Reconstruction Readme
 
 This folder is the GitHub-facing demo bundle for the Time-Evolving Neural
 Operator (TENO) study on multiphase-flow reconstruction. It contains an
