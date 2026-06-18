@@ -62,7 +62,7 @@ If this repository is useful for your work, please consider citing our pub:
 
 **Ziyun Zhang and Eldin Wee Chuan Lim**  
 *Time-Evolving Neural Operator Reconstruction and Prediction of Complex Flows from Sparse Measurements*  
-Physics of Fluids (2026) 
+Physics of Fluids 2026 38 (6)  
 https://doi.org/10.1063/5.0328615
 
 ## Contact
